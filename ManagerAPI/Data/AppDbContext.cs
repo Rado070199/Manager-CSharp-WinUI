@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 
-namespace Manager.API.Data
+namespace ManagerAPI.Data
 {
     public class AppDbContext : DbContext
     {

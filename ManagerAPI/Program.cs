@@ -1,10 +1,11 @@
-using Manager.API.Data;
+using ManagerAPI.Data;
+using ManagerAPI.Data.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<ICustomersService, CustomersService>();
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
