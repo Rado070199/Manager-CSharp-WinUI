@@ -11,9 +11,9 @@ namespace ManagerAPI.Data.Services
             _context = context;
         }
 
-        public async Task AddAsync(Customer actor)
+        public async Task AddAsync(Customer customer)
         {
-           await _context.Customers.AddAsync(actor);
+           await _context.Customers.AddAsync(customer);
             await _context.SaveChangesAsync();
         }
 
@@ -34,7 +34,7 @@ namespace ManagerAPI.Data.Services
             return result;
         }
 
-        public Customer Update(int id, Customer newActor)
+        public Customer Update(int id, Customer newCustomer)
         {
             throw new NotImplementedException();
         }

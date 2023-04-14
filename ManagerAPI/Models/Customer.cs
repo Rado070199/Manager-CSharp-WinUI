@@ -8,7 +8,6 @@ namespace ManagerAPI.Models
         public int Id { get; set; }
         public string FullName { get; set; }
         public string Bio { get; set; }
-        //Relationships
         public List<Order> Orders { get; set; }
     }
 }

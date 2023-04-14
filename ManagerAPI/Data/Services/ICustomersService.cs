@@ -6,8 +6,8 @@ namespace ManagerAPI.Data.Services
     {
         Task<IEnumerable<Customer>> GetAllAsync();
         Task<Customer> GetByIdAsync(int id);
-        Task AddAsync(Customer actor);
-        Customer Update(int id, Customer newActor);
+        Task AddAsync(Customer customer);
+        Customer Update(int id, Customer newCustomer);
         void Delete(int id);
     }
 }
