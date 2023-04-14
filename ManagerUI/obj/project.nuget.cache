@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EKeY1nq6UgIaPhhXCY/U+OzFl2jc9086KINywYm3AVniYJxJaO8X3zte1vjtCbvTPvkn2srgdD4hPcUL9q57Ug==",
+  "dgSpecHash": "G2sl84S2gZdYov1ggzFCLH1dAoqdPYBSw3nDms6sLiprim7h1WCVlGlf9lUQ9Xi87QzfWf+lCgr0RFrYu8Gdhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\damia\\Desktop\\Manager\\ManagerUI\\ManagerUI.csproj",
+  "projectFilePath": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerUI\\ManagerUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

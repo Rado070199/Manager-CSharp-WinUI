@@ -1,16 +1,20 @@
 ﻿using ManagerAPI.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ManagerAPI.Data.Services
 {
     public class CustomersService : ICustomersService
     {
-        public CustomersService(AppDbContext context) 
+        private readonly AppDbContext _context;
+        public CustomersService(AppDbContext context)
         {
+            _context = context;
         }
 
-        public void Add(Customer actor)
+        public async Task AddAsync(Customer actor)
         {
-            throw new NotImplementedException();
+           await _context.Customers.AddAsync(actor);
+            await _context.SaveChangesAsync();
         }
 
         public void Delete(int id)
@@ -18,14 +22,16 @@ namespace ManagerAPI.Data.Services
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Customer>> GetAll()
+        public async Task<IEnumerable<Customer>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            var result = await _context.Customers.ToListAsync();
+            return result;
         }
 
-        public Customer GetById(int id)
+        public async Task<Customer> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var result = await _context.Customers.FirstOrDefaultAsync(n => n.Id == id);
+            return result;
         }
 
         public Customer Update(int id, Customer newActor)

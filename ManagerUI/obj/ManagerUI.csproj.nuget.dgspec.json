@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damia\\Desktop\\Manager\\ManagerUI\\ManagerUI.csproj": {}
+    "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerUI\\ManagerUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damia\\Desktop\\Manager\\ManagerCommon\\ManagerCommon.csproj": {
+    "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerCommon\\ManagerCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damia\\Desktop\\Manager\\ManagerCommon\\ManagerCommon.csproj",
+        "projectUniqueName": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerCommon\\ManagerCommon.csproj",
         "projectName": "ManagerCommon",
-        "projectPath": "C:\\Users\\damia\\Desktop\\Manager\\ManagerCommon\\ManagerCommon.csproj",
+        "projectPath": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerCommon\\ManagerCommon.csproj",
         "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damia\\Desktop\\Manager\\ManagerCommon\\obj\\",
+        "outputPath": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerCommon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\damia\\Desktop\\Manager\\ManagerUI\\ManagerUI.csproj": {
+    "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerUI\\ManagerUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damia\\Desktop\\Manager\\ManagerUI\\ManagerUI.csproj",
+        "projectUniqueName": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerUI\\ManagerUI.csproj",
         "projectName": "ManagerUI",
-        "projectPath": "C:\\Users\\damia\\Desktop\\Manager\\ManagerUI\\ManagerUI.csproj",
+        "projectPath": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerUI\\ManagerUI.csproj",
         "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damia\\Desktop\\Manager\\ManagerUI\\obj\\",
+        "outputPath": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,8 +91,8 @@
           "net6.0-windows10.0.19041": {
             "targetAlias": "net6.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\damia\\Desktop\\Manager\\ManagerCommon\\ManagerCommon.csproj": {
-                "projectPath": "C:\\Users\\damia\\Desktop\\Manager\\ManagerCommon\\ManagerCommon.csproj"
+              "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerCommon\\ManagerCommon.csproj": {
+                "projectPath": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerCommon\\ManagerCommon.csproj"
               }
             }
           }

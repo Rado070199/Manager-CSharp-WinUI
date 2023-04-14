@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damia\\Desktop\\Manager\\ManagerTests\\ManagerTests.csproj": {}
+    "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerTests\\ManagerTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damia\\Desktop\\Manager\\ManagerTests\\ManagerTests.csproj": {
+    "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerTests\\ManagerTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damia\\Desktop\\Manager\\ManagerTests\\ManagerTests.csproj",
+        "projectUniqueName": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerTests\\ManagerTests.csproj",
         "projectName": "ManagerTests",
-        "projectPath": "C:\\Users\\damia\\Desktop\\Manager\\ManagerTests\\ManagerTests.csproj",
+        "projectPath": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerTests\\ManagerTests.csproj",
         "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damia\\Desktop\\Manager\\ManagerTests\\obj\\",
+        "outputPath": "C:\\Users\\damia\\Desktop\\Manager-CSharp-WinUI\\ManagerTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
